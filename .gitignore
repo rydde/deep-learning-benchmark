@@ -4,3 +4,4 @@ models/
 *.pyc
 .ipynb_checkpoints/
 .env
+.pth
