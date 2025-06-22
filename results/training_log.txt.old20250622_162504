@@ -1,0 +1,117 @@
+
+========================================
+Benchmark Run: 2025-06-22T15:52:10.749053
+PyTorch version: 2.7.1+cu128
+CUDA available: True
+CUDA device: NVIDIA GeForce RTX 5070 Ti
+========================================
+Training on cpu with lr=0.0001, batch_size=128, optimizer=adam, patience=5
+[1, 1] loss: 2.3884
+[1, 101] loss: 1.8416
+[1, 201] loss: 1.6953
+[1, 301] loss: 1.6039
+Epoch 1: Test Accuracy: 52.80%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 52.80%
+[2, 1] loss: 1.0228
+[2, 101] loss: 1.1594
+[2, 201] loss: 1.1444
+[2, 301] loss: 1.1475
+Epoch 2: Test Accuracy: 56.93%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 56.93%
+[3, 1] loss: 0.8093
+[3, 101] loss: 0.8733
+[3, 201] loss: 0.8842
+[3, 301] loss: 0.8960
+Epoch 3: Test Accuracy: 59.46%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 59.46%
+[4, 1] loss: 0.5657
+[4, 101] loss: 0.6393
+[4, 201] loss: 0.6556
+[4, 301] loss: 0.6658
+Epoch 4: Test Accuracy: 59.02%
+[5, 1] loss: 0.4525
+[5, 101] loss: 0.4250
+[5, 201] loss: 0.4331
+[5, 301] loss: 0.4566
+Epoch 5: Test Accuracy: 58.81%
+[6, 1] loss: 0.2750
+[6, 101] loss: 0.2619
+[6, 201] loss: 0.2700
+[6, 301] loss: 0.2823
+Epoch 6: Test Accuracy: 58.13%
+[7, 1] loss: 0.1880
+[7, 101] loss: 0.1770
+[7, 201] loss: 0.1772
+[7, 301] loss: 0.1907
+Epoch 7: Test Accuracy: 59.63%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 59.63%
+[8, 1] loss: 0.1762
+[8, 101] loss: 0.1130
+[8, 201] loss: 0.1176
+[8, 301] loss: 0.1285
+Epoch 8: Test Accuracy: 59.29%
+[9, 1] loss: 0.0878
+[9, 101] loss: 0.1049
+[9, 201] loss: 0.1058
+[9, 301] loss: 0.1123
+Epoch 9: Test Accuracy: 60.30%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 60.30%
+[10, 1] loss: 0.1668
+[10, 101] loss: 0.1120
+[10, 201] loss: 0.1088
+[10, 301] loss: 0.1126
+Epoch 10: Test Accuracy: 58.93%
+[11, 1] loss: 0.0865
+[11, 101] loss: 0.0997
+[11, 201] loss: 0.1009
+[11, 301] loss: 0.1009
+Epoch 11: Test Accuracy: 60.13%
+[12, 1] loss: 0.0286
+[12, 101] loss: 0.0712
+[12, 201] loss: 0.0679
+[12, 301] loss: 0.0776
+Epoch 12: Test Accuracy: 60.28%
+[13, 1] loss: 0.0274
+[13, 101] loss: 0.0788
+[13, 201] loss: 0.0805
+[13, 301] loss: 0.0868
+Epoch 13: Test Accuracy: 60.88%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 60.88%
+[14, 1] loss: 0.1142
+[14, 101] loss: 0.0721
+[14, 201] loss: 0.0710
+[14, 301] loss: 0.0756
+Epoch 14: Test Accuracy: 60.14%
+[15, 1] loss: 0.1261
+[15, 101] loss: 0.0741
+[15, 201] loss: 0.0732
+[15, 301] loss: 0.0766
+Epoch 15: Test Accuracy: 59.30%
+[16, 1] loss: 0.0579
+[16, 101] loss: 0.0738
+[16, 201] loss: 0.0717
+[16, 301] loss: 0.0756
+Epoch 16: Test Accuracy: 60.87%
+[17, 1] loss: 0.0414
+[17, 101] loss: 0.0584
+[17, 201] loss: 0.0569
+[17, 301] loss: 0.0601
+Epoch 17: Test Accuracy: 61.54%
+Model saved to models/best_model_cpu_lr0.0001_batch128_optimizeradam_paramiddefault.pth with accuracy 61.54%
+[18, 1] loss: 0.0312
+[18, 101] loss: 0.0623
+[18, 201] loss: 0.0638
+[18, 301] loss: 0.0679
+Epoch 18: Test Accuracy: 60.59%
+[19, 1] loss: 0.0499
+[19, 101] loss: 0.0657
+[19, 201] loss: 0.0656
+[19, 301] loss: 0.0681
+Epoch 19: Test Accuracy: 60.85%
+[20, 1] loss: 0.0544
+[20, 101] loss: 0.0536
+[20, 201] loss: 0.0558
+[20, 301] loss: 0.0577
+Epoch 20: Test Accuracy: 61.16%
+Finished Training in 1721.77 seconds
+Best Test Accuracy: 61.54% (Epoch 17)

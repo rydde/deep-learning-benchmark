@@ -1,0 +1,30 @@
+
+========================================
+Benchmark Run: 2025-06-22T15:18:57.034505
+PyTorch version: 2.7.1+cu128
+CUDA available: True
+CUDA device: NVIDIA GeForce RTX 5070 Ti
+========================================
+Training on cpu...
+[1, 1] loss: 2.7082
+[1, 101] loss: 1.6848
+[1, 201] loss: 1.5386
+[1, 301] loss: 1.4402
+[2, 1] loss: 0.9662
+[2, 101] loss: 1.0058
+[2, 201] loss: 0.9932
+[2, 301] loss: 0.9771
+Finished Training in 152.21 seconds
+Test Accuracy: 64.24%
+Training on cuda...
+[1, 1] loss: 2.5232
+[1, 101] loss: 1.6963
+[1, 201] loss: 1.5269
+[1, 301] loss: 1.4386
+[2, 1] loss: 1.0699
+[2, 101] loss: 1.0269
+[2, 201] loss: 1.0022
+[2, 301] loss: 0.9876
+Finished Training in 12.86 seconds
+Test Accuracy: 64.98%
+Benchmark Results: {'cpu': {'time': 152.21140384674072, 'accuracy': 64.24}, 'gpu': {'time': 12.864159107208252, 'accuracy': 64.98}}

@@ -1,0 +1,54 @@
+
+========================================
+Benchmark Run: 2025-06-22T15:25:48.376739
+PyTorch version: 2.7.1+cu128
+CUDA available: True
+CUDA device: NVIDIA GeForce RTX 5070 Ti
+========================================
+Training on cpu...
+[1, 1] loss: 2.6955
+[1, 101] loss: 1.8731
+[1, 201] loss: 1.7139
+[1, 301] loss: 1.6255
+[2, 1] loss: 1.2010
+[2, 101] loss: 1.1754
+[2, 201] loss: 1.1726
+[2, 301] loss: 1.1696
+[3, 1] loss: 0.8866
+[3, 101] loss: 0.9051
+[3, 201] loss: 0.9095
+[3, 301] loss: 0.9187
+[4, 1] loss: 0.8830
+[4, 101] loss: 0.6688
+[4, 201] loss: 0.6835
+[4, 301] loss: 0.6971
+[5, 1] loss: 0.3762
+[5, 101] loss: 0.4500
+[5, 201] loss: 0.4639
+[5, 301] loss: 0.4834
+Finished Training in 376.39 seconds
+Test Accuracy: 58.50%
+Training on cuda...
+[1, 1] loss: 2.5988
+[1, 101] loss: 1.8867
+[1, 201] loss: 1.7244
+[1, 301] loss: 1.6338
+[2, 1] loss: 1.2419
+[2, 101] loss: 1.1667
+[2, 201] loss: 1.1566
+[2, 301] loss: 1.1549
+[3, 1] loss: 1.0205
+[3, 101] loss: 0.8905
+[3, 201] loss: 0.8918
+[3, 301] loss: 0.9070
+[4, 1] loss: 0.6726
+[4, 101] loss: 0.6365
+[4, 201] loss: 0.6597
+[4, 301] loss: 0.6775
+[5, 1] loss: 0.4464
+[5, 101] loss: 0.4312
+[5, 201] loss: 0.4395
+[5, 301] loss: 0.4543
+Finished Training in 30.72 seconds
+Test Accuracy: 58.45%
+Benchmark Results: {'cpu': {'time': 376.3855745792389, 'accuracy': 58.5}, 'gpu': {'time': 30.72460389137268, 'accuracy': 58.45}}
