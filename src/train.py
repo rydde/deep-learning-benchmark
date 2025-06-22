@@ -158,7 +158,7 @@ if __name__ == "__main__":
         #"batch_size": [64, 128],
         "batch_size": [128],
         #"optimizer_type": ["adam", "sgd"]
-        "optimizer_type": ["adam"
+        "optimizer_type": ["adam"]
 
     }
     # CPU
