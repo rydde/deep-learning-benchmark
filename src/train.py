@@ -153,9 +153,13 @@ def run_hyperparameter_grid(
 if __name__ == "__main__":
     # Example grid
     param_grid = {
-        "lr": [0.001, 0.01],
-        "batch_size": [64, 128],
-        "optimizer_type": ["adam", "sgd"]
+        #"lr": [0.001, 0.01],
+        "lr": [0.001],
+        #"batch_size": [64, 128],
+        "batch_size": [128],
+        #"optimizer_type": ["adam", "sgd"]
+        "optimizer_type": ["adam"
+
     }
     # CPU
     device = torch.device("cpu")
