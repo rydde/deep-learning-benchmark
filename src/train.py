@@ -159,10 +159,10 @@ if __name__ == "__main__":
     }
     # CPU
     device = torch.device("cpu")
-    cpu_results = run_hyperparameter_grid(device, param_grid, epochs=5, patience=3, verbose=True)
+    cpu_results = run_hyperparameter_grid(device, param_grid, epochs=1, patience=3, verbose=True)
     # GPU (if available)
     if torch.cuda.is_available():
         device = torch.device("cuda")
-        gpu_results = run_hyperparameter_grid(device, param_grid, epochs=5, patience=3, verbose=True)
+        gpu_results = run_hyperparameter_grid(device, param_grid, epochs=1, patience=3, verbose=True)
     else:
         print("CUDA is not available. Skipping GPU benchmark.")
