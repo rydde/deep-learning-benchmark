@@ -109,15 +109,15 @@ def test_model(model, testloader, device):
             correct += (predicted == labels).sum().item()
     return 100 * correct / total
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # CPU
-    cpu_time, cpu_acc = train_model(torch.device("cpu"))
+  #  cpu_time, cpu_acc = train_model(torch.device("cpu"))
     # GPU (if available)
-    if torch.cuda.is_available():
-        gpu_time, gpu_acc = train_model(torch.device("cuda"))
-    else:
-        print("CUDA is not available. Skipping GPU benchmark.")
-
+  #  if torch.cuda.is_available():
+  #      gpu_time, gpu_acc = train_model(torch.device("cuda"))
+  #  else:
+  #      print("CUDA is not available. Skipping GPU benchmark.")
+#
 
 def run_hyperparameter_grid(
     device,
